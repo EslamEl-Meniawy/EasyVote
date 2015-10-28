@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vote 1</title>
+        <link rel="stylesheet" href="css/vote1.css" />
+    </head>
+    <body>
+        <div id="page">
+            <div class="main">
+                <div class="question">{{question}}</div>
+                <div class="maincontainer">
+                    <div class="container">
+                        <img class="image imageyes" {{src1}} />
+                        <img class="image imageno" {{src2}} />
+                    </div>
+                    <div class="container">
+                        <div class="color coloryes" {{cy}}></div>
+                        <div class="color colorno" {{cn}}></div>
+                    </div>
+                    <div class="container">
+                        <div class="text textyes"></div>
+                        <div class="text textno"></div>
+                    </div>
+                    <div class="container">
+                        <div class="click clickyes"></div>
+                        <div class="click clickno"></div>
+                    </div>
+                </div>
+                <div class="answerscontainer">
+                    <div class="answers">
+                        <div class="answer answeryes">{{answer1}}</div>
+                        <div class="answer answerno">{{answer2}}</div>
+                    </div>
+                </div>
+                <div class="countcontainer">
+                    <div class="counts">
+                        <div class="count countyes"></div>
+                        <div class="count countno"></div>
+                    </div>
+                </div>
+                <div class="answers_id">
+                    <div class="id1">{{id1}}</div>
+                    <div class="id2">{{id2}}</div>
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script charset="UTF-8" type="text/javascript" src="js/vote1.js"></script>
+    </body>
+</html>

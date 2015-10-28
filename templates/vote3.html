@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vote 3</title>
+        <link rel="stylesheet" href="css/vote3.css" />
+    </head>
+    <body>
+        <div id="page">
+            <div class="main">
+                <div class="question">{{question}}</div>
+                <video class="video" controls="controls">
+                    <source id="videosource" type="video/mp4" {{src}}>
+                    Your browser does not support the video tag.
+                </video>
+                <div class="container">
+                    <div class="left">
+                        <div class="yes">{{yes}}</div>
+                    </div>
+                    <div class="right">
+                        <div class="no">{{no}}</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="left countyes"></div>
+                    <div class="right countno"></div>
+                </div>
+                <div class="answers_id">
+                    <div class="id1">{{id1}}</div>
+                    <div class="id2">{{id2}}</div>
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script charset="UTF-8" type="text/javascript" src="js/vote3.js"></script>
+    </body>
+</html>

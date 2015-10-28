@@ -1,0 +1,74 @@
+.main {
+	width: 300px;
+	position: relative;
+}
+.question {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+}
+.maincontainer {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.image {
+	width: 15%;
+	height: 50px;
+	display: inline-block;
+}
+.container {
+	width: 82%;
+	margin-left: 3%;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+}
+.bar {
+	width: 100%;
+	height: 50px;
+	background: #dedede;
+}
+.barcolor {
+	height: 50px;
+	background: #6d6d6d;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition:width 1s;
+	-webkit-transition:width 1s;
+}
+.text {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 0;
+}
+.answer {
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: large;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+}
+.perc {
+	height: 50px;
+	line-height: 50px;
+	font-weight: bold;
+	font-size: large;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.count {
+	width: 100%;
+	text-align: right;
+}
+.answers_id {
+	display: none;
+}

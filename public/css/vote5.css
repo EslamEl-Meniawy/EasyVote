@@ -1,0 +1,122 @@
+.main {
+	width: 300px;
+	position: relative;
+}
+.question {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+form {
+	width: 100%;
+	font-weight: bold;
+	font-size: large;
+	line-height: 40px;
+}
+.buttoncontainer {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+.button {
+	width: 65px;
+	height: 50px;
+	font-weight: bold;
+	font-size: larger;
+	color: #ffffff;
+	border-radius: 10px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 auto;
+}
+.buttonvote {
+	background: #40e0d0;
+}
+.buttonresults {
+	background: #6d6d6d;
+}
+.buttonwidth {
+	width: 49%;
+	display: inline-block;
+}
+.answers_id {
+	display: none;
+}
+input[type=checkbox].css-checkbox.med + label.css-label.med {
+	padding-left: 22px;
+	height: 17px;
+	display: inline-block;
+	line-height: 17px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=checkbox].css-checkbox.med:checked + label.css-label.med {
+
+	background-position: 0 -17px;
+}
+input[type=checkbox].css-checkbox.sme + label.css-label.sme {
+	padding-left: 22px;
+	height: 16px;
+	display: inline-block;
+	line-height: 16px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme {
+
+	background-position: 0 -16px;
+}
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+	padding-left: 22px;
+	height: 20px;
+	display: inline-block;
+	line-height: 20px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg {
+
+	background-position: 0 -20px;
+}
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left: 20px;
+	height: 15px;
+	display: inline-block;
+	line-height: 15px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 15px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -15px;
+}
+.css-label {
+	background-image:url(../img/dark-check-green.png);
+}
+.mac-style {
+	background-image:url(../img/mac-style.png);
+}

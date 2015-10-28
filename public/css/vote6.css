@@ -1,0 +1,61 @@
+.main {
+	width: 300px;
+	position: relative;
+}
+.question {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+.questioninput {
+	width: 100%;
+	text-align: center;
+	font-size: x-large;
+	position: absolute;
+	top: 0;
+	height: 40px;
+	line-height: 40px;
+	padding: 0;
+}
+.maincontainer {
+	width: 100%;
+	display: block;
+}
+.mcont {
+	width: 30%;
+	display: inline-block;
+}
+.container {
+	width: 50px;
+	margin: 0 auto;
+	position: relative;
+}
+.bar {
+	width: 50px;
+	background: #646464;
+	position: absolute;
+	bottom: 50px;
+	transition:height 1s;
+	-webkit-transition:height 1s;
+}
+.image {
+	width: 50px;
+	height: 50px;
+}
+.imagecontainer {
+	position: relative;
+}
+.imageinput {
+	position: absolute;
+	top: 0;
+}
+.barwhite {
+	width: 50px;
+	height: 200px;
+}
+.answers_id {
+	display: none;
+}
